@@ -1,0 +1,31 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Dialogue/BP_DialogueComponent.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Audio/Dialogue/TestDialogue_1.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Dialogue/Dialogue_Test.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/__ExternalObjects__/FirstPerson/Maps/FirstPersonMap/C/XX/REBGX4TUR8B5RTN4537YAX.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/NS/NO2UG9GNOF4ZROOE57OX7J.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/GP/4Y9I8AGMU42D5NMOR4U583.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Dialogue/BPC_DialogueComponent.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Audio/Dialogue/Test/TestDialogue_1.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Audio/Dialogue/Test/TestDialogue_2.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Audio/Dialogue/TestDialogue_2.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Audio/Settings/DefaultAttenuation.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Audio/Dialogue/Test/TestDialogue_Return.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Audio/Dialogue/Test/TestDialogue_3.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Audio/Dialogue/Test/TestDialogue_4.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Audio/Dialogue/Test/TestDialogue_5.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Audio/Dialogue/Test/TestDialogue_6.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Audio/Dialogue/Test/TestDialogue_7.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Audio/Dialogue/Test/TestDialogue_8.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Audio/Dialogue/Test/TestDialogue_9.uasset",
+				"C:/TempProjects/VRIM 100/VRIM100_Final/Unreal_VRIM100_Final/Content/Audio/Dialogue/Test/TestDialogue_10.uasset"
+			]
+		}
+	]
+}
