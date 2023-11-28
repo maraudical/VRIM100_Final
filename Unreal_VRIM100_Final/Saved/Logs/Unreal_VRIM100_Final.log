@@ -9745,3 +9745,470 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2023.11.28-03.25.54:583][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
 [2023.11.28-03.25.54:591][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
 [2023.11.28-03.25.54:599][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.11.28-03.45.16:302][794]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2023.11.28-03.45.17:677][908]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.11.28-03.45.17:686][908]LogContentBrowser: Creating deferred item: NewFolder
+[2023.11.28-03.45.17:698][909]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.11.28-03.45.21:208][164]LogContentBrowser: Attempting asset rename: NewFolder -> Characters
+[2023.11.28-03.45.21:209][164]LogContentBrowser: End creating deferred item NewFolder
+[2023.11.28-03.45.27:791][463]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jessica\Documents\School Stuff\School Years\4 Junior\1 VRIM-100\Final\Castle Guard 02.fbx)
+[2023.11.28-03.45.27:830][463]LogFbx: Loading FBX Scene from C:\Users\Jessica\Documents\School Stuff\School Years\4 Junior\1 VRIM-100\Final\Castle Guard 02.fbx
+[2023.11.28-03.45.27:867][463]LogFbx: FBX Scene Loaded Succesfully
+[2023.11.28-03.45.32:732][463]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.11.28-03.45.32:844][463]LogFbx: Valid bind pose for Pose (skinCluster2) - Guard03_Mesh
+[2023.11.28-03.45.32:847][463]LogMaterial: Display: Material /Game/Characters/Guard_03.Guard_03 needed to have new flag set bUsedWithSkeletalMesh !
+[2023.11.28-03.45.32:914][463]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.28-03.45.32:920][463]LogTexture: Display: Building textures: /Game/Characters/Guard_03__diffuse.Guard_03__diffuse (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.11.28-03.45.32:954][463]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.28-03.45.32:966][463]LogTexture: Display: Building textures: /Game/Characters/Guard_03__specular.Guard_03__specular (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.11.28-03.45.33:026][463]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.28-03.45.33:034][463]LogTexture: Display: Building textures: /Game/Characters/Guard_03__normal.Guard_03__normal (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 168.562488 MB), EncodeSpeed: Fast
+[2023.11.28-03.45.33:072][463]LogFbx: Triangulating skeletal mesh Guard03_Mesh
+[2023.11.28-03.45.33:244][463]LogFbx: Bones digested - 43  Depth of hierarchy - 12
+[2023.11.28-03.45.33:466][463]LogSkeletalMesh: Section 0: Material=0, 4421 triangles
+[2023.11.28-03.45.33:502][463]LogSkeletalMesh: Building Skeletal Mesh Castle_Guard_02...
+[2023.11.28-03.45.33:520][463]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Castle_Guard_02) ...
+[2023.11.28-03.45.33:667][463]LogSkeletalMesh: Built Skeletal Mesh [0.17s] /Game/Characters/Castle_Guard_02.Castle_Guard_02
+[2023.11.28-03.45.33:825][463]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.28-03.45.33:825][463]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.28-03.45.33:858][463]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.11.28-03.45.33:858][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.28-03.45.33:887][463]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: ================================================
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Total job queries 4,297, among them cache hits 43 (1.00%)
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Tracking 4,185 distinct input hashes that result in 2,938 distinct outputs (70.20%)
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: RAM used: 79.39 MiB of 819.20 MiB budget. Usage: 9.69%
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Shaders Compiled: 4,185
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Jobs assigned 4,213, completed 4,185 (99.34%)
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Average time worker was idle: 40.18 s
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Time job spent in pending queue: average 72.93 s, longest 174.78 s
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Job execution time: average 3.93 s, max 18.49 s
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Job life time (pending + execution): average 77.35 s, max 181.86
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Shader code size: average 37.842 KiB, min 2.086 KiB, max 162.84 KiB
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 254.35 s
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Jobs were issued in 958 batches (only local compilation was used), average 4.40 jobs/batch
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Average processing rate: 16.45 jobs/sec
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Total thread time: 1,915.633 s
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Total thread preprocess time: 133.672 s
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Percentage time preprocessing: 6.98%
+[2023.11.28-03.45.34:332][469]LogShaderCompilers: Display: Effective parallelization: 7.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.28-03.45.34:334][469]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.28-03.45.34:334][469]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 8.14 sec, max 13.87 sec, min 2.08 sec)
+[2023.11.28-03.45.34:334][469]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.29 sec, max 6.39 sec, min 4.05 sec)
+[2023.11.28-03.45.34:334][469]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.98 sec, max 3.70 sec, min 1.09 sec)
+[2023.11.28-03.45.34:334][469]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 1.59 sec, max 3.48 sec, min 1.32 sec)
+[2023.11.28-03.45.34:334][469]LogShaderCompilers: Display:                                  FDiffuseIndirectCompositePS (compiled   12 times, average 1.57 sec, max 4.70 sec, min 0.13 sec)
+[2023.11.28-03.45.34:334][469]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.28-03.45.34:334][469]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.15% of total time (compiled  134 times, average 1.59 sec, max 3.48 sec, min 1.32 sec)
+[2023.11.28-03.45.34:334][469]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.68% of total time (compiled   96 times, average 0.93 sec, max 1.57 sec, min 0.60 sec)
+[2023.11.28-03.45.34:334][469]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 3.90% of total time (compiled   96 times, average 0.78 sec, max 1.15 sec, min 0.20 sec)
+[2023.11.28-03.45.34:334][469]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 3.59% of total time (compiled  128 times, average 0.54 sec, max 1.29 sec, min 0.18 sec)
+[2023.11.28-03.45.34:334][469]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 3.44% of total time (compiled  128 times, average 0.51 sec, max 1.02 sec, min 0.38 sec)
+[2023.11.28-03.45.34:335][469]LogShaderCompilers: Display: ================================================
+[2023.11.28-03.45.36:335][552]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.28-03.45.36:438][553]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.28-03.45.37:028][585]LogSlate: Window 'Message Log' being destroyed
+[2023.11.28-03.45.37:035][585]LogSlate: Window 'Message Log' being destroyed
+[2023.11.28-03.45.44:629][859]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jessica\Documents\School Stuff\School Years\4 Junior\1 VRIM-100\Final\castle_guard_01.fbx)
+[2023.11.28-03.45.44:647][859]LogFbx: Loading FBX Scene from C:\Users\Jessica\Documents\School Stuff\School Years\4 Junior\1 VRIM-100\Final\castle_guard_01.fbx
+[2023.11.28-03.45.44:679][859]LogFbx: FBX Scene Loaded Succesfully
+[2023.11.28-03.45.46:136][859]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.11.28-03.45.46:168][859]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Guard02 : The relative matrices do not match
+[2023.11.28-03.45.46:168][859]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2023.11.28-03.45.46:168][859]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Guard02
+[2023.11.28-03.45.46:168][859]LogFbx: Warning: Recreating bind pose succeeded.
+[2023.11.28-03.45.46:171][859]LogMaterial: Display: Material /Game/Characters/Guard_02.Guard_02 needed to have new flag set bUsedWithSkeletalMesh !
+[2023.11.28-03.45.46:225][859]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.28-03.45.46:231][859]LogTexture: Display: Building textures: /Game/Characters/Guard_02__diffuse.Guard_02__diffuse (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.11.28-03.45.46:259][859]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.28-03.45.46:284][859]LogTexture: Display: Building textures: /Game/Characters/Guard_02__specular.Guard_02__specular (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.11.28-03.45.46:300][859]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.28-03.45.46:325][859]LogTexture: Display: Building textures: /Game/Characters/Guard_02__normal.Guard_02__normal (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 168.562488 MB), EncodeSpeed: Fast
+[2023.11.28-03.45.46:327][859]LogFbx: Triangulating skeletal mesh Guard02
+[2023.11.28-03.45.46:468][859]LogFbx: Bones digested - 43  Depth of hierarchy - 12
+[2023.11.28-03.45.46:625][859]LogSkeletalMesh: Section 0: Material=0, 4531 triangles
+[2023.11.28-03.45.46:648][859]LogSkeletalMesh: Building Skeletal Mesh castle_guard_01...
+[2023.11.28-03.45.46:665][859]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (castle_guard_01) ...
+[2023.11.28-03.45.46:750][859]LogSkeletalMesh: Built Skeletal Mesh [0.10s] /Game/Characters/castle_guard_01.castle_guard_01
+[2023.11.28-03.45.46:814][859]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.28-03.45.46:815][859]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.28-03.45.46:829][859]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.11.28-03.45.46:829][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.28-03.45.46:857][859]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (castle_guard_01) ...
+[2023.11.28-03.45.46:874][859]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.11.28-03.45.47:202][863]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.28-03.45.48:417][936]LogSlate: Window 'Message Log' being destroyed
+[2023.11.28-03.45.48:425][936]LogSlate: Window 'Message Log' being destroyed
+[2023.11.28-03.46.02:596][701]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jessica\Documents\School Stuff\School Years\4 Junior\1 VRIM-100\Final\Ch39_nonPBR.fbx)
+[2023.11.28-03.46.02:691][701]LogFbx: Loading FBX Scene from C:\Users\Jessica\Documents\School Stuff\School Years\4 Junior\1 VRIM-100\Final\Ch39_nonPBR.fbx
+[2023.11.28-03.46.02:780][701]LogFbx: FBX Scene Loaded Succesfully
+[2023.11.28-03.46.04:058][701]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.11.28-03.46.04:076][701]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node Ch39 : The relative matrices do not match
+[2023.11.28-03.46.04:076][701]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2023.11.28-03.46.04:077][701]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Ch39
+[2023.11.28-03.46.04:077][701]LogFbx: Warning: Recreating bind pose succeeded.
+[2023.11.28-03.46.04:081][701]LogMaterial: Display: Material /Game/Characters/Ch39_Body.Ch39_Body needed to have new flag set bUsedWithSkeletalMesh !
+[2023.11.28-03.46.04:478][701]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.28-03.46.04:537][701]LogTexture: Display: Building textures: /Game/Characters/Ch39_1001_Diffuse.Ch39_1001_Diffuse (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2023.11.28-03.46.04:933][701]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.28-03.46.05:037][701]LogTexture: Display: Building textures: /Game/Characters/Ch39_1001_Specular.Ch39_1001_Specular (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2023.11.28-03.46.05:165][701]LogEditorFactories: Display: Image imported as : TSF G8
+[2023.11.28-03.46.05:373][701]LogTexture: Display: Building textures: /Game/Characters/Ch39_1001_Glossiness.Ch39_1001_Glossiness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.062484 MB), EncodeSpeed: Fast
+[2023.11.28-03.46.05:847][701]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.28-03.46.05:931][701]LogTexture: Display: Building textures: /Game/Characters/Ch39_1001_Normal.Ch39_1001_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.062484 MB), EncodeSpeed: Fast
+[2023.11.28-03.46.06:012][701]LogFbx: Triangulating skeletal mesh Ch39
+[2023.11.28-03.46.06:978][701]LogFbx: Bones digested - 65  Depth of hierarchy - 12
+[2023.11.28-03.46.07:889][701]LogSkeletalMesh: Section 0: Material=0, 32098 triangles
+[2023.11.28-03.46.08:023][701]LogSkeletalMesh: Building Skeletal Mesh Ch39_nonPBR...
+[2023.11.28-03.46.08:061][701]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Ch39_nonPBR) ...
+[2023.11.28-03.46.08:869][701]LogSkeletalMesh: Built Skeletal Mesh [0.85s] /Game/Characters/Ch39_nonPBR.Ch39_nonPBR
+[2023.11.28-03.46.09:034][701]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.28-03.46.09:034][701]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.28-03.46.09:052][701]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.11.28-03.46.09:052][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.28-03.46.09:086][701]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Ch39_nonPBR) ...
+[2023.11.28-03.46.09:094][701]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.11.28-03.46.09:094][701]FBXImport: Warning: The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandRing4  
+mixamorig:LeftHandPinky4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandRing4  
+mixamorig:RightHandPinky4  
+mixamorig:LeftToe_End  
+mixamorig:RightToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2023.11.28-03.46.09:350][705]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.28-03.46.20:619][414]LogSlate: Window 'Message Log' being destroyed
+[2023.11.28-03.46.20:627][414]LogSlate: Window 'Message Log' being destroyed
+[2023.11.28-03.46.33:289][149]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jessica\Documents\School Stuff\School Years\4 Junior\1 VRIM-100\Final\Peasant Girl.fbx)
+[2023.11.28-03.46.33:306][149]LogFbx: Loading FBX Scene from C:\Users\Jessica\Documents\School Stuff\School Years\4 Junior\1 VRIM-100\Final\Peasant Girl.fbx
+[2023.11.28-03.46.33:353][149]LogFbx: FBX Scene Loaded Succesfully
+[2023.11.28-03.46.34:867][149]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.11.28-03.46.34:887][149]LogFbx: Valid bind pose for Pose (skinCluster2) - Peasant_girl
+[2023.11.28-03.46.34:889][149]LogMaterial: Display: Material /Game/Characters/Peasant_Girl1.Peasant_Girl1 needed to have new flag set bUsedWithSkeletalMesh !
+[2023.11.28-03.46.34:945][149]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.28-03.46.34:950][149]LogTexture: Display: Building textures: /Game/Characters/Peasant_Girl_diffuse.Peasant_Girl_diffuse (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.11.28-03.46.34:980][149]LogEditorFactories: Display: Auto-detected grayscale, image changed to G8
+[2023.11.28-03.46.34:980][149]LogEditorFactories: Display: Image imported as : TSF G8
+[2023.11.28-03.46.34:988][149]LogTexture: Display: Building textures: /Game/Characters/Peasant_Girl_specular.Peasant_Girl_specular (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 98.645823 MB), EncodeSpeed: Fast
+[2023.11.28-03.46.35:025][149]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.28-03.46.35:031][149]LogTexture: Display: Building textures: /Game/Characters/Peasant_Girl_normal.Peasant_Girl_normal (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 168.562488 MB), EncodeSpeed: Fast
+[2023.11.28-03.46.35:054][149]LogFbx: Triangulating skeletal mesh Peasant_girl
+[2023.11.28-03.46.35:175][149]LogFbx: Bones digested - 69  Depth of hierarchy - 12
+[2023.11.28-03.46.35:339][149]LogSkeletalMesh: Section 0: Material=0, 5036 triangles
+[2023.11.28-03.46.35:364][149]LogSkeletalMesh: Building Skeletal Mesh Peasant_Girl...
+[2023.11.28-03.46.35:380][149]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Peasant_Girl) ...
+[2023.11.28-03.46.35:480][149]LogSkeletalMesh: Built Skeletal Mesh [0.12s] /Game/Characters/Peasant_Girl.Peasant_Girl
+[2023.11.28-03.46.35:582][149]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.28-03.46.35:582][149]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.28-03.46.35:594][149]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.11.28-03.46.35:594][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.28-03.46.35:615][149]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.11.28-03.46.36:026][156]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.28-03.46.37:409][242]LogSlate: Window 'Message Log' being destroyed
+[2023.11.28-03.46.37:417][242]LogSlate: Window 'Message Log' being destroyed
+[2023.11.28-03.46.42:346][469]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jessica\Documents\School Stuff\School Years\4 Junior\1 VRIM-100\Final\Peasant Man.fbx)
+[2023.11.28-03.46.42:360][469]LogFbx: Loading FBX Scene from C:\Users\Jessica\Documents\School Stuff\School Years\4 Junior\1 VRIM-100\Final\Peasant Man.fbx
+[2023.11.28-03.46.42:392][469]LogFbx: FBX Scene Loaded Succesfully
+[2023.11.28-03.46.43:577][469]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.11.28-03.46.43:601][469]LogFbx: Valid bind pose for Pose (skinCluster2) - Peasant_Man
+[2023.11.28-03.46.43:604][469]LogMaterial: Display: Material /Game/Characters/Peasant_Man_02.Peasant_Man_02 needed to have new flag set bUsedWithSkeletalMesh !
+[2023.11.28-03.46.43:662][469]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.28-03.46.43:667][469]LogTexture: Display: Building textures: /Game/Characters/Peasant_Man_diffuse.Peasant_Man_diffuse (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 101.645823 MB), EncodeSpeed: Fast
+[2023.11.28-03.46.43:684][469]LogEditorFactories: Display: Image imported as : TSF G8
+[2023.11.28-03.46.43:703][469]LogTexture: Display: Building textures: /Game/Characters/Peasant_Man_specular.Peasant_Man_specular (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 98.645823 MB), EncodeSpeed: Fast
+[2023.11.28-03.46.43:718][469]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2023.11.28-03.46.43:744][469]LogFbx: Triangulating skeletal mesh Peasant_Man
+[2023.11.28-03.46.43:745][469]LogTexture: Display: Building textures: /Game/Characters/Peasant_Man_normal.Peasant_Man_normal (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 168.562488 MB), EncodeSpeed: Fast
+[2023.11.28-03.46.43:883][469]LogFbx: Bones digested - 43  Depth of hierarchy - 12
+[2023.11.28-03.46.44:082][469]LogSkeletalMesh: Section 0: Material=0, 4631 triangles
+[2023.11.28-03.46.44:103][469]LogSkeletalMesh: Building Skeletal Mesh Peasant_Man...
+[2023.11.28-03.46.44:120][469]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Peasant_Man) ...
+[2023.11.28-03.46.44:209][469]LogSkeletalMesh: Built Skeletal Mesh [0.11s] /Game/Characters/Peasant_Man.Peasant_Man
+[2023.11.28-03.46.44:252][469]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.28-03.46.44:252][469]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.28-03.46.44:268][469]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.11.28-03.46.44:268][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.28-03.46.44:287][469]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.11.28-03.46.44:634][473]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.28-03.46.46:082][552]LogSlate: Window 'Message Log' being destroyed
+[2023.11.28-03.46.46:090][552]LogSlate: Window 'Message Log' being destroyed
+[2023.11.28-03.46.52:619][786]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.11.28-03.46.54:065][786]LogSlate: Window 'Save Content' being destroyed
+[2023.11.28-03.46.54:082][786]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.28-03.46.54:254][786]LogSavePackage: Moving output files for package: /Game/Characters/castle_guard_01
+[2023.11.28-03.46.54:254][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/castle_guard_01638FA2E64D0D49945E0BECA004EDB2D6.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/castle_guard_01.uasset'
+[2023.11.28-03.46.54:288][786]LogSavePackage: Moving output files for package: /Game/Characters/castle_guard_01_PhysicsAsset
+[2023.11.28-03.46.54:288][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/castle_guard_01_PhysicsAssetF68FCD6C4DFB65194C2D89ABC0D18A32.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/castle_guard_01_PhysicsAsset.uasset'
+[2023.11.28-03.46.54:333][786]LogSavePackage: Moving output files for package: /Game/Characters/Castle_Guard_02
+[2023.11.28-03.46.54:333][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Castle_Guard_029E64E45F452E19693FF2CFB5154EA546.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Castle_Guard_02.uasset'
+[2023.11.28-03.46.54:367][786]LogSavePackage: Moving output files for package: /Game/Characters/Castle_Guard_02_PhysicsAsset
+[2023.11.28-03.46.54:367][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Castle_Guard_02_PhysicsAsset71447D034601F07F47FF149C887A6C7C.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Castle_Guard_02_PhysicsAsset.uasset'
+[2023.11.28-03.46.54:397][786]LogSavePackage: Moving output files for package: /Game/Characters/Castle_Guard_02_Skeleton
+[2023.11.28-03.46.54:397][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Castle_Guard_02_Skeleton46EA67C04E4E1B10E1173D98E10AD8CD.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Castle_Guard_02_Skeleton.uasset'
+[2023.11.28-03.46.54:798][786]LogSavePackage: Moving output files for package: /Game/Characters/Ch39_1001_Diffuse
+[2023.11.28-03.46.54:798][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Ch39_1001_Diffuse92D25B8F42915874DFEA90BB45E4F170.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Ch39_1001_Diffuse.uasset'
+[2023.11.28-03.46.54:903][786]LogSavePackage: Moving output files for package: /Game/Characters/Ch39_1001_Glossiness
+[2023.11.28-03.46.54:903][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Ch39_1001_GlossinessA0C512F4443D9294CF5F9F8A2AA5605B.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Ch39_1001_Glossiness.uasset'
+[2023.11.28-03.46.55:386][786]LogSavePackage: Moving output files for package: /Game/Characters/Ch39_1001_Normal
+[2023.11.28-03.46.55:386][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Ch39_1001_Normal25586F4A4A4C35EA68DAC79AEF19D667.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Ch39_1001_Normal.uasset'
+[2023.11.28-03.46.55:669][786]LogSavePackage: Moving output files for package: /Game/Characters/Ch39_1001_Specular
+[2023.11.28-03.46.55:669][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Ch39_1001_SpecularAC2F21F24CCCCAF3053DC795DB5A65CD.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Ch39_1001_Specular.uasset'
+[2023.11.28-03.46.57:698][786]LogSavePackage: Moving output files for package: /Game/Characters/Ch39_Body
+[2023.11.28-03.46.57:698][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Ch39_Body4708360E40B36801E40D39922FB35BCC.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Ch39_Body.uasset'
+[2023.11.28-03.46.57:816][786]LogSavePackage: Moving output files for package: /Game/Characters/Ch39_nonPBR
+[2023.11.28-03.46.57:816][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Ch39_nonPBRCA41D78A4E19B1EC80DDD29B5EBD6988.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Ch39_nonPBR.uasset'
+[2023.11.28-03.46.57:850][786]LogSavePackage: Moving output files for package: /Game/Characters/Ch39_nonPBR_PhysicsAsset
+[2023.11.28-03.46.57:850][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Ch39_nonPBR_PhysicsAssetDCB346CA43661B6573398CA4FC95E293.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Ch39_nonPBR_PhysicsAsset.uasset'
+[2023.11.28-03.46.59:588][786]LogSavePackage: Moving output files for package: /Game/Characters/Guard_02
+[2023.11.28-03.46.59:588][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Guard_020E37D52C474493F627454CBA62C1E6EC.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Guard_02.uasset'
+[2023.11.28-03.46.59:624][786]LogSavePackage: Moving output files for package: /Game/Characters/Guard_02__diffuse
+[2023.11.28-03.46.59:624][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Guard_02__diffuseC033CF0F4C7F0CA7B72813A09F204BBB.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Guard_02__diffuse.uasset'
+[2023.11.28-03.46.59:661][786]LogSavePackage: Moving output files for package: /Game/Characters/Guard_02__normal
+[2023.11.28-03.46.59:661][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Guard_02__normalD6FCE9344FAA3AFD3E575084453EBD60.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Guard_02__normal.uasset'
+[2023.11.28-03.46.59:690][786]LogSavePackage: Moving output files for package: /Game/Characters/Guard_02__specular
+[2023.11.28-03.46.59:691][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Guard_02__specular9507400444AF71609DAEC4AE0F03F186.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Guard_02__specular.uasset'
+[2023.11.28-03.46.59:781][786]LogSavePackage: Moving output files for package: /Game/Characters/Guard_03
+[2023.11.28-03.46.59:781][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Guard_03E3DD9CA04DFD9276C55E65909214072E.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Guard_03.uasset'
+[2023.11.28-03.46.59:821][786]LogSavePackage: Moving output files for package: /Game/Characters/Guard_03__diffuse
+[2023.11.28-03.46.59:821][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Guard_03__diffuse4756F87F41204071622F3E8D8EBA2F29.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Guard_03__diffuse.uasset'
+[2023.11.28-03.46.59:862][786]LogSavePackage: Moving output files for package: /Game/Characters/Guard_03__normal
+[2023.11.28-03.46.59:862][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Guard_03__normalF8E3D7034DDA009F5D9448B963314CC7.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Guard_03__normal.uasset'
+[2023.11.28-03.46.59:896][786]LogSavePackage: Moving output files for package: /Game/Characters/Guard_03__specular
+[2023.11.28-03.46.59:896][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Guard_03__specular5028198C474F5B015000E5A3BB22CBA8.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Guard_03__specular.uasset'
+[2023.11.28-03.46.59:940][786]LogSavePackage: Moving output files for package: /Game/Characters/Peasant_Girl
+[2023.11.28-03.46.59:940][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Peasant_Girl5AF30EEC4BEF80C10778E594B72DC402.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Peasant_Girl.uasset'
+[2023.11.28-03.46.59:985][786]LogSavePackage: Moving output files for package: /Game/Characters/Peasant_Girl1
+[2023.11.28-03.46.59:985][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Peasant_Girl1D8A36FA94B2CF749C023DBB511E9C51C.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Peasant_Girl1.uasset'
+[2023.11.28-03.47.00:024][786]LogSavePackage: Moving output files for package: /Game/Characters/Peasant_Girl_diffuse
+[2023.11.28-03.47.00:025][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Peasant_Girl_diffuseE2066AD54B4E3C0AEA4CB3A4609FFAAA.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Peasant_Girl_diffuse.uasset'
+[2023.11.28-03.47.00:061][786]LogSavePackage: Moving output files for package: /Game/Characters/Peasant_Girl_normal
+[2023.11.28-03.47.00:062][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Peasant_Girl_normalF214B8E441C2D2F27DAF1AA50983E83B.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Peasant_Girl_normal.uasset'
+[2023.11.28-03.47.00:091][786]LogSavePackage: Moving output files for package: /Game/Characters/Peasant_Girl_PhysicsAsset
+[2023.11.28-03.47.00:091][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Peasant_Girl_PhysicsAsset3E6DEC5F41A3FE38E49B408DACF265F6.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Peasant_Girl_PhysicsAsset.uasset'
+[2023.11.28-03.47.00:104][786]LogSavePackage: Moving output files for package: /Game/Characters/Peasant_Girl_specular
+[2023.11.28-03.47.00:104][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Peasant_Girl_specularCE2B4697493DA4701A5780A2DCD48080.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Peasant_Girl_specular.uasset'
+[2023.11.28-03.47.00:146][786]LogSavePackage: Moving output files for package: /Game/Characters/Peasant_Man
+[2023.11.28-03.47.00:146][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Peasant_ManF3FA4F0B49A7FA058BDB5BB2D5E451FA.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Peasant_Man.uasset'
+[2023.11.28-03.47.00:191][786]LogSavePackage: Moving output files for package: /Game/Characters/Peasant_Man_02
+[2023.11.28-03.47.00:191][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Peasant_Man_02342354C44F6C0A96BFD6439B48A4438F.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Peasant_Man_02.uasset'
+[2023.11.28-03.47.00:235][786]LogSavePackage: Moving output files for package: /Game/Characters/Peasant_Man_diffuse
+[2023.11.28-03.47.00:235][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Peasant_Man_diffuse0F117B9141D4CB536DCEB1983BCCD01D.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Peasant_Man_diffuse.uasset'
+[2023.11.28-03.47.00:268][786]LogSavePackage: Moving output files for package: /Game/Characters/Peasant_Man_normal
+[2023.11.28-03.47.00:268][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Peasant_Man_normal4902134E4829575FCD5CFAA436C04DB1.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Peasant_Man_normal.uasset'
+[2023.11.28-03.47.00:300][786]LogSavePackage: Moving output files for package: /Game/Characters/Peasant_Man_PhysicsAsset
+[2023.11.28-03.47.00:300][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Peasant_Man_PhysicsAsset4D96AAA949665AC7990CBD99A1CD4C46.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Peasant_Man_PhysicsAsset.uasset'
+[2023.11.28-03.47.00:313][786]LogSavePackage: Moving output files for package: /Game/Characters/Peasant_Man_specular
+[2023.11.28-03.47.00:313][786]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Peasant_Man_specular912310984964E0E89FF5A79602A510DC.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/Peasant_Man_specular.uasset'
+[2023.11.28-03.47.00:322][786]LogFileHelpers: InternalPromptForCheckoutAndSave took 6.24 sec (total: 30.2 sec)
+[2023.11.28-03.47.00:328][786]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/castle_guard_01.castle_guard_01
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.PhysicsAsset /Game/Characters/castle_guard_01_PhysicsAsset.castle_guard_01_PhysicsAsset
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/Castle_Guard_02.Castle_Guard_02
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.PhysicsAsset /Game/Characters/Castle_Guard_02_PhysicsAsset.Castle_Guard_02_PhysicsAsset
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/Characters/Castle_Guard_02_Skeleton.Castle_Guard_02_Skeleton
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Ch39_1001_Diffuse.Ch39_1001_Diffuse
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Ch39_1001_Glossiness.Ch39_1001_Glossiness
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Ch39_1001_Normal.Ch39_1001_Normal
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Ch39_1001_Specular.Ch39_1001_Specular
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/Ch39_Body.Ch39_Body
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/Ch39_nonPBR.Ch39_nonPBR
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.PhysicsAsset /Game/Characters/Ch39_nonPBR_PhysicsAsset.Ch39_nonPBR_PhysicsAsset
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/Guard_02.Guard_02
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Guard_02__diffuse.Guard_02__diffuse
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Guard_02__normal.Guard_02__normal
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Guard_02__specular.Guard_02__specular
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/Guard_03.Guard_03
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Guard_03__diffuse.Guard_03__diffuse
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Guard_03__normal.Guard_03__normal
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Guard_03__specular.Guard_03__specular
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/Peasant_Girl.Peasant_Girl
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/Peasant_Girl1.Peasant_Girl1
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Peasant_Girl_diffuse.Peasant_Girl_diffuse
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Peasant_Girl_normal.Peasant_Girl_normal
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.PhysicsAsset /Game/Characters/Peasant_Girl_PhysicsAsset.Peasant_Girl_PhysicsAsset
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Peasant_Girl_specular.Peasant_Girl_specular
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/Peasant_Man.Peasant_Man
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/Peasant_Man_02.Peasant_Man_02
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Peasant_Man_diffuse.Peasant_Man_diffuse
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Peasant_Man_normal.Peasant_Man_normal
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.PhysicsAsset /Game/Characters/Peasant_Man_PhysicsAsset.Peasant_Man_PhysicsAsset
+[2023.11.28-03.47.00:329][786]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/Peasant_Man_specular.Peasant_Man_specular
+[2023.11.28-03.47.40:748][208]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jessica\Documents\School Stuff\School Years\4 Junior\1 VRIM-100\Final\full-moon-fears-pitchfork-villager/source/Idle.fbx)
+[2023.11.28-03.47.40:760][208]LogFbx: Loading FBX Scene from C:\Users\Jessica\Documents\School Stuff\School Years\4 Junior\1 VRIM-100\Final\full-moon-fears-pitchfork-villager/source/Idle.fbx
+[2023.11.28-03.47.40:892][208]LogFbx: FBX Scene Loaded Succesfully
+[2023.11.28-03.47.42:275][208]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.11.28-03.47.42:297][208]LogFbx: Valid bind pose for Pose (skinCluster1) - Hat
+[2023.11.28-03.47.42:297][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Hat : The relative matrices do not match
+[2023.11.28-03.47.42:297][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node L_Eye : The relative matrices do not match
+[2023.11.28-03.47.42:297][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node R_Eye : The relative matrices do not match
+[2023.11.28-03.47.42:297][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Shirt : The relative matrices do not match
+[2023.11.28-03.47.42:297][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Hair : The relative matrices do not match
+[2023.11.28-03.47.42:297][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Legs : The relative matrices do not match
+[2023.11.28-03.47.42:297][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Skirt : The relative matrices do not match
+[2023.11.28-03.47.42:298][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Belt : The relative matrices do not match
+[2023.11.28-03.47.42:298][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Poncho : The relative matrices do not match
+[2023.11.28-03.47.42:298][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Bandage : The relative matrices do not match
+[2023.11.28-03.47.42:298][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Face : The relative matrices do not match
+[2023.11.28-03.47.42:298][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Beard : The relative matrices do not match
+[2023.11.28-03.47.42:298][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Eyebrows : The relative matrices do not match
+[2023.11.28-03.47.42:298][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node Fork_Neutral : The relative matrices do not match
+[2023.11.28-03.47.42:298][208]LogFbx: Valid bind pose for Pose (skinCluster3) - Hat
+[2023.11.28-03.47.42:298][208]LogFbx: Valid bind pose for Pose (skinCluster4) - Hat
+[2023.11.28-03.47.42:298][208]LogFbx: Valid bind pose for Pose (skinCluster5) - Hat
+[2023.11.28-03.47.42:298][208]LogFbx: Valid bind pose for Pose (skinCluster6) - Hat
+[2023.11.28-03.47.42:299][208]LogFbx: Valid bind pose for Pose (skinCluster7) - Hat
+[2023.11.28-03.47.42:299][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Hat : The relative matrices do not match
+[2023.11.28-03.47.42:299][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node L_Eye : The relative matrices do not match
+[2023.11.28-03.47.42:299][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node R_Eye : The relative matrices do not match
+[2023.11.28-03.47.42:299][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Shirt : The relative matrices do not match
+[2023.11.28-03.47.42:299][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Hair : The relative matrices do not match
+[2023.11.28-03.47.42:299][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Legs : The relative matrices do not match
+[2023.11.28-03.47.42:300][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Skirt : The relative matrices do not match
+[2023.11.28-03.47.42:300][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Belt : The relative matrices do not match
+[2023.11.28-03.47.42:300][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Poncho : The relative matrices do not match
+[2023.11.28-03.47.42:300][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Bandage : The relative matrices do not match
+[2023.11.28-03.47.42:300][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Face : The relative matrices do not match
+[2023.11.28-03.47.42:300][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Beard : The relative matrices do not match
+[2023.11.28-03.47.42:300][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Eyebrows : The relative matrices do not match
+[2023.11.28-03.47.42:300][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster8) - Node Fork_Neutral : The relative matrices do not match
+[2023.11.28-03.47.42:301][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Hat : The relative matrices do not match
+[2023.11.28-03.47.42:301][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node L_Eye : The relative matrices do not match
+[2023.11.28-03.47.42:301][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node R_Eye : The relative matrices do not match
+[2023.11.28-03.47.42:301][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Shirt : The relative matrices do not match
+[2023.11.28-03.47.42:301][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Hair : The relative matrices do not match
+[2023.11.28-03.47.42:301][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Legs : The relative matrices do not match
+[2023.11.28-03.47.42:301][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Skirt : The relative matrices do not match
+[2023.11.28-03.47.42:301][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Belt : The relative matrices do not match
+[2023.11.28-03.47.42:301][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Poncho : The relative matrices do not match
+[2023.11.28-03.47.42:301][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Bandage : The relative matrices do not match
+[2023.11.28-03.47.42:301][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Face : The relative matrices do not match
+[2023.11.28-03.47.42:301][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Beard : The relative matrices do not match
+[2023.11.28-03.47.42:301][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Eyebrows : The relative matrices do not match
+[2023.11.28-03.47.42:301][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster9) - Node Fork_Neutral : The relative matrices do not match
+[2023.11.28-03.47.42:302][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster10) - Node Hat : The relative matrices do not match
+[2023.11.28-03.47.42:302][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster10) - Node L_Eye : The relative matrices do not match
+[2023.11.28-03.47.42:302][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster10) - Node R_Eye : The relative matrices do not match
+[2023.11.28-03.47.42:302][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster10) - Node Shirt : The relative matrices do not match
+[2023.11.28-03.47.42:302][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster10) - Node Hair : The relative matrices do not match
+[2023.11.28-03.47.42:302][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster10) - Node Legs : The relative matrices do not match
+[2023.11.28-03.47.42:302][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster10) - Node Skirt : The relative matrices do not match
+[2023.11.28-03.47.42:302][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster10) - Node Belt : The relative matrices do not match
+[2023.11.28-03.47.42:302][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster10) - Node Poncho : The relative matrices do not match
+[2023.11.28-03.47.42:302][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster10) - Node Bandage : The relative matrices do not match
+[2023.11.28-03.47.42:302][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster10) - Node Face : The relative matrices do not match
+[2023.11.28-03.47.42:302][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster10) - Node Beard : The relative matrices do not match
+[2023.11.28-03.47.42:302][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster10) - Node Eyebrows : The relative matrices do not match
+[2023.11.28-03.47.42:302][208]LogFbx: Warning: Not valid bind pose for Pose (skinCluster10) - Node Fork_Neutral : The relative matrices do not match
+[2023.11.28-03.47.42:303][208]LogFbx: Valid bind pose for Pose (skinCluster11) - Hat
+[2023.11.28-03.47.42:303][208]LogFbx: Valid bind pose for Pose (skinCluster12) - Hat
+[2023.11.28-03.47.42:303][208]LogFbx: Valid bind pose for Pose (skinCluster13) - Hat
+[2023.11.28-03.47.42:303][208]LogFbx: Valid bind pose for Pose (skinCluster14) - Hat
+[2023.11.28-03.47.42:306][208]LogMaterial: Display: Material /Game/Characters/full-moon-fears-pitchfork-villager/source/Pithfork_Mat.Pithfork_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2023.11.28-03.47.42:333][208]LogFbxMaterialImport: Display: Unable to find Texture file E:\FULLMOONFEARS\Maya_Animation\sourceimages\Pitch_Dirty.tga
+[2023.11.28-03.47.42:347][208]LogFbx: Triangulating skeletal mesh Hat
+[2023.11.28-03.47.42:397][208]LogFbx: Triangulating skeletal mesh L_Eye
+[2023.11.28-03.47.42:409][208]LogFbx: Triangulating skeletal mesh R_Eye
+[2023.11.28-03.47.42:425][208]LogFbx: Triangulating skeletal mesh Shirt
+[2023.11.28-03.47.42:577][208]LogFbx: Triangulating skeletal mesh Hair
+[2023.11.28-03.47.42:599][208]LogFbx: Triangulating skeletal mesh Legs
+[2023.11.28-03.47.42:647][208]LogFbx: Triangulating skeletal mesh Skirt
+[2023.11.28-03.47.42:654][208]LogFbx: Triangulating skeletal mesh Belt
+[2023.11.28-03.47.42:668][208]LogFbx: Triangulating skeletal mesh Poncho
+[2023.11.28-03.47.42:678][208]LogFbx: Triangulating skeletal mesh Bandage
+[2023.11.28-03.47.42:712][208]LogFbx: Triangulating skeletal mesh Face
+[2023.11.28-03.47.42:839][208]LogFbx: Triangulating skeletal mesh Beard
+[2023.11.28-03.47.42:850][208]LogFbx: Triangulating skeletal mesh Eyebrows
+[2023.11.28-03.47.42:860][208]LogMaterial: Display: Material /Game/Characters/full-moon-fears-pitchfork-villager/source/Pithfork_Mat1.Pithfork_Mat1 needed to have new flag set bUsedWithSkeletalMesh !
+[2023.11.28-03.47.42:888][208]LogFbxMaterialImport: Display: Unable to find Texture file E:\FULLMOONFEARS\Maya_Animation\sourceimages\Pitch_Dirty.tga
+[2023.11.28-03.47.42:901][208]LogFbx: Triangulating skeletal mesh Fork_Neutral
+[2023.11.28-03.47.42:977][208]LogFbx: Bones digested - 55  Depth of hierarchy - 12
+[2023.11.28-03.47.43:661][208]LogSkeletalMesh: Section 0: Material=0, 24270 triangles
+[2023.11.28-03.47.43:661][208]LogSkeletalMesh: Section 1: Material=1, 2218 triangles
+[2023.11.28-03.47.43:706][208]LogSkeletalMesh: Building Skeletal Mesh Idle...
+[2023.11.28-03.47.43:725][208]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Idle) ...
+[2023.11.28-03.47.44:335][208]LogSkeletalMesh: Built Skeletal Mesh [0.63s] /Game/Characters/full-moon-fears-pitchfork-villager/source/Idle.Idle
+[2023.11.28-03.47.44:453][208]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.28-03.47.44:454][208]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.28-03.47.44:466][208]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.11.28-03.47.44:467][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.28-03.47.44:504][208]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'Pitch_Dirty' was renamed 'Pitch_Dirty_ncl1_1' 
+[2023.11.28-03.47.44:591][208]LogInterchangeEngine: [Pending] Importing
+[2023.11.28-03.47.44:591][208]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Jessica/Doc...rk-villager/textures/Pithfork_Mat_albedo.jpg]
+[2023.11.28-03.47.44:593][208]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.11.28-03.47.44:593][208]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Jessica/Doc...rk-villager/textures/Pithfork_Mat_AO.jpg]
+[2023.11.28-03.47.44:593][208]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.11.28-03.47.44:593][208]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Jessica/Doc...rk-villager/textures/Pithfork_Mat_metallic.jpg]
+[2023.11.28-03.47.44:594][208]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.11.28-03.47.44:594][208]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Jessica/Doc...rk-villager/textures/Pithfork_Mat_normal.png]
+[2023.11.28-03.47.44:595][208]LogInterchangeEngine: [Pending] Importing -  (5)
+[2023.11.28-03.47.44:595][208]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Jessica/Doc...rk-villager/textures/Pithfork_Mat_roughness.jpg]
+[2023.11.28-03.47.44:611][208]LogInterchangeImport: JPEG file [C:/Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_albedo.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2023.11.28-03.47.44:611][208]LogInterchangeImport: JPEG file [C:/Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_AO.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2023.11.28-03.47.44:613][208]LogInterchangeImport: JPEG file [C:/Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_metallic.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2023.11.28-03.47.44:613][208]LogInterchangeImport: JPEG file [C:/Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_roughness.jpg]: Pipeline setting 'bPreferCompressedSourceData' has been overridden by Editor setting 'RetainJpegFormat'
+[2023.11.28-03.47.44:669][209]LogTexture: Display: Building textures: /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_metallic.Pithfork_Mat_metallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.11.28-03.47.44:710][209]LogTexture: Display: Building textures: /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_roughness.Pithfork_Mat_roughness (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.11.28-03.47.44:710][209]LogTexture: Display: Building textures: /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_AO.Pithfork_Mat_AO (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.11.28-03.47.44:715][209]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.11.28-03.47.44:715][209]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.11.28-03.47.44:715][209]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.11.28-03.47.44:715][209]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.11.28-03.47.44:722][209]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.11.28-03.47.44:724][209]LogTexture: Display: Building textures: /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_albedo.Pithfork_Mat_albedo (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.11.28-03.47.44:821][210]LogInterchangePipeline: Display: Auto-detected normal map
+[2023.11.28-03.47.44:929][210]LogInterchangeEngine: [Success] Import Done
+[2023.11.28-03.47.44:965][211]LogInterchangeEngine: [Success] Import Done
+[2023.11.28-03.47.45:031][211]LogTexture: Display: Building textures: /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_normal.Pithfork_Mat_normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 336.562488 MB), EncodeSpeed: Fast
+[2023.11.28-03.47.45:898][252]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.28-03.47.46:773][287]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.28-03.47.48:617][396]LogSlate: Window 'Message Log' being destroyed
+[2023.11.28-03.47.48:624][396]LogSlate: Window 'Message Log' being destroyed
+[2023.11.28-03.48.06:720][599]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.11.28-03.48.08:285][599]LogSlate: Window 'Save Content' being destroyed
+[2023.11.28-03.48.08:298][599]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.28-03.48.08:480][599]LogSavePackage: Moving output files for package: /Game/Characters/full-moon-fears-pitchfork-villager/source/Idle
+[2023.11.28-03.48.08:481][599]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Idle9AED449A461C5666E53D45AFE2826EA4.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/full-moon-fears-pitchfork-villager/source/Idle.uasset'
+[2023.11.28-03.48.08:497][599]LogSavePackage: Moving output files for package: /Game/Characters/full-moon-fears-pitchfork-villager/source/Idle_PhysicsAsset
+[2023.11.28-03.48.08:497][599]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Idle_PhysicsAsset433296C549BFF65140FF6994DB5CA8F4.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/full-moon-fears-pitchfork-villager/source/Idle_PhysicsAsset.uasset'
+[2023.11.28-03.48.08:512][599]LogSavePackage: Moving output files for package: /Game/Characters/full-moon-fears-pitchfork-villager/source/Idle_Skeleton
+[2023.11.28-03.48.08:512][599]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Idle_SkeletonCE82A37E432155F4E12FD6BDD2DB82C6.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/full-moon-fears-pitchfork-villager/source/Idle_Skeleton.uasset'
+[2023.11.28-03.48.10:535][599]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2023.11.28-03.48.10:728][599]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.193255s
+[2023.11.28-03.48.10:729][599]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 2.195512s (0.195512s overbudget)
+[2023.11.28-03.48.10:753][599]LogSavePackage: Moving output files for package: /Game/Characters/full-moon-fears-pitchfork-villager/source/Pithfork_Mat
+[2023.11.28-03.48.10:753][599]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Pithfork_Mat92ADDF5A45AFC983BB8314A15D41A286.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/full-moon-fears-pitchfork-villager/source/Pithfork_Mat.uasset'
+[2023.11.28-03.48.10:802][599]LogSavePackage: Moving output files for package: /Game/Characters/full-moon-fears-pitchfork-villager/source/Pithfork_Mat1
+[2023.11.28-03.48.10:802][599]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Pithfork_Mat110F1366342243042AAD8CFAA36074D07.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/full-moon-fears-pitchfork-villager/source/Pithfork_Mat1.uasset'
+[2023.11.28-03.48.10:809][599]LogSavePackage: Moving output files for package: /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_albedo
+[2023.11.28-03.48.10:809][599]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Pithfork_Mat_albedo71E6DE2E45E4134613CE009CB945B67B.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_albedo.uasset'
+[2023.11.28-03.48.10:818][599]LogSavePackage: Moving output files for package: /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_AO
+[2023.11.28-03.48.10:818][599]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Pithfork_Mat_AO4326AF124DADF259816FC29D86A232E7.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_AO.uasset'
+[2023.11.28-03.48.10:824][599]LogSavePackage: Moving output files for package: /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_metallic
+[2023.11.28-03.48.10:824][599]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Pithfork_Mat_metallicC8509BC143301562E3178993F5978E92.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_metallic.uasset'
+[2023.11.28-03.48.10:936][599]LogSavePackage: Moving output files for package: /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_normal
+[2023.11.28-03.48.10:936][599]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Pithfork_Mat_normalA3F08004477CEC2E2A71198D1E0C6230.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_normal.uasset'
+[2023.11.28-03.48.10:944][599]LogSavePackage: Moving output files for package: /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_roughness
+[2023.11.28-03.48.10:944][599]LogSavePackage: Moving '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Saved/Pithfork_Mat_roughnessC7B0D099454457949BF4ED9B8FC72C81.tmp' to '../../../../../../Users/Jessica/Documents/School Stuff/School Years/4 Junior/1 VRIM-100/Final/Github/VRIM100_Final/Unreal_VRIM100_Final/Content/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_roughness.uasset'
+[2023.11.28-03.48.10:954][599]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.65 sec (total: 32.9 sec)
+[2023.11.28-03.48.10:957][599]AssetCheck: New page: Asset Save: multiple assets
+[2023.11.28-03.48.10:957][599]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Characters/full-moon-fears-pitchfork-villager/source/Idle.Idle
+[2023.11.28-03.48.10:957][599]LogContentValidation: Display: Validating /Script/Engine.PhysicsAsset /Game/Characters/full-moon-fears-pitchfork-villager/source/Idle_PhysicsAsset.Idle_PhysicsAsset
+[2023.11.28-03.48.10:957][599]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/Characters/full-moon-fears-pitchfork-villager/source/Idle_Skeleton.Idle_Skeleton
+[2023.11.28-03.48.10:957][599]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/full-moon-fears-pitchfork-villager/source/Pithfork_Mat.Pithfork_Mat
+[2023.11.28-03.48.10:957][599]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Characters/full-moon-fears-pitchfork-villager/source/Pithfork_Mat1.Pithfork_Mat1
+[2023.11.28-03.48.10:957][599]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_albedo.Pithfork_Mat_albedo
+[2023.11.28-03.48.10:957][599]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_AO.Pithfork_Mat_AO
+[2023.11.28-03.48.10:957][599]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_metallic.Pithfork_Mat_metallic
+[2023.11.28-03.48.10:957][599]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_normal.Pithfork_Mat_normal
+[2023.11.28-03.48.10:957][599]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Characters/full-moon-fears-pitchfork-villager/textures/Pithfork_Mat_roughness.Pithfork_Mat_roughness
