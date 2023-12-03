@@ -50,7 +50,7 @@ Unreal_VRIM100_Final/Binaries/*
 Unreal_VRIM100_Final/Plugins/*/Binaries/*
 
 # Builds
-Build/*
+Builds/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
